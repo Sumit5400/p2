@@ -1,0 +1,41 @@
+import React from 'react'
+
+function Section_1() {
+  return (
+    <>
+    <section>
+  <div className="container">
+    <div className="row mt-4 p-4">
+      <div className="col-lg-5 mt-4">
+        <img className="rounded w-100 h-100" src="https://www.aclnepal.com/np/wp-content/uploads/2024/02/arghakhanchi-image-about.jpg" alt='' />
+      </div>
+      <div className="col-lg-7 p-4">
+        <h4 className="before-line text-danger ">Welcome to Arghakhanchi Cement</h4>
+        <h2 className="text-primary">Dedicated to Quality and Strength</h2>
+        <p className="lh-base text-secondary-emphasis pb-3">
+          Arghakhanchi Cement Ltd. is a leading cement manufacturer in Nepal with a one-million-ton annual
+          production capacity. It is a major producer of OPC and PPC through its advanced production
+          plant. ACL has a decade-long track record of producing high-quality clinkers and cement,
+          recognized with the Nepal Standard Mark (NS: 572) by the Government of Nepal. <br />
+          ACL has expanded globally, entering the Indian market last year with IS 1489 certification. The
+          company’s plant in Siyari Rural Municipality – 2 utilizes Danish Vertical Roller Mill (VRM)
+          technology, ensuring robust and durable structures. ACL stands out with its innovative use of a
+          Waste Heat Recovery System (WHRS), generating 2.5 MW of energy and promoting a sustainable and
+          healthy working environment. <br />
+          Additionally, ACL employs an Electrostatic Precipitator (EPC) to eliminate dust particles,
+          maintaining a clean environment. With an unparalleled production capacity and a commitment to
+          quality, innovation, and sustainability, ACL remains a driving force in the cement manufacturing
+          sector nationally and internationally.
+        </p>
+        
+        <button className="btn btn-outline-danger" type="submit">More About Us</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </>
+  )
+}
+
+export default Section_1
