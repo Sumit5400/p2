@@ -1,9 +1,11 @@
 import Map1 from "./Map1";
 import Map2 from "./Map2";
+import "./demo.css";
 
 export default function IframeTabs() {
   return (
     <>
+    <h2 className="demo">dddd</h2>
       <ul className="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li className="nav-item" role="presentation">
           <button

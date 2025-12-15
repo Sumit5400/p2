@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Open_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Open_Sans, Barlow } from "next/font/google";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "./globals.css";
 import Header from "./Components/Header";
@@ -11,6 +11,11 @@ const geistSans = Geist({
 });
 const open_sans = Open_Sans({
   variable: "--font-Open_Sans",
+  subsets: ["latin"],
+});
+
+const barlow = Barlow({
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -32,6 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased ${open_sans.className}`}>
+       
         <Header/>
         {children}
         <Footer/>

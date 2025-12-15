@@ -1,5 +1,6 @@
 import React from 'react'
 import InstagramEmbed from './Instagram'
+import "./style.css";
 
 function Section_8() {
   return (
